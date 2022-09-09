@@ -1,0 +1,58 @@
+﻿@using InternetBanking.Model
+@model Pix
+
+<style>
+    .value {
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+</style>
+
+<div class="row">
+    <div class="col-sm-12">
+        <h1>Pix</h1>
+    </div>
+    <div class="col-sm-12">
+        <h3 id="status">@Model.Status</h3>
+    </div>
+
+    <div class="col-sm-2">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Transação</label>
+    </div>
+    <div class="col-sm-10">
+        <label id="transacao">@Model.IdTransacao</label>
+    </div>
+
+    <div class="col-sm-2">
+        <label for="inputEmail3" class="col-sm-2 col-form-label">Valor</label>
+    </div>
+    <div class="col-sm-10">
+        <label id="valor">@Model.Valor</label>
+    </div>
+
+    @if (Model.Conta != null)
+    {
+        <div class="col-sm-2">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Banco Destino</label>
+        </div>
+        <div class="col-sm-10 value">
+            <label id="bancoDestino">@Model.Conta.Banco</label>
+        </div>
+
+        <div class="col-sm-2">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Conta Destino</label>
+        </div>
+        <div class="col-sm-10 value">
+            <label id="contaDestino">@Model.Conta.Numero</label>
+        </div>
+
+        <div class="col-sm-2">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Destinatario</label>
+        </div>
+        <div class="col-sm-10 value">
+            <label id="destinatario">@Model.Conta.Titular</label>
+        </div>
+    }
+</div>

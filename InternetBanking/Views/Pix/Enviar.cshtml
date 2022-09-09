@@ -1,0 +1,19 @@
+﻿<form action="~/Pix/Enviar" method="POST">
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Tipo Chave</label>
+        <select class="form-control" id="tipoChave" name="tipoChave">
+            <option value="CPF" selected>CPF</option>
+            <option value="TELEFONE">Telefone</option>
+            <option value="EMAIL">E-Mail</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Digite a chave</label>
+        <input type="text" class="form-control" id="chave" name="chave">
+    </div>
+    <div class="form-group">
+        <label >Digite o valor</label>
+        <input type="number" class="form-control" id="valor" name="valor">
+    </div>
+    <button type="submit" class="btn btn-primary" id="enviar">Enviar</button>
+</form>

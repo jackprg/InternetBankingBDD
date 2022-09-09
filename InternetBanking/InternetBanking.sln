@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetBanking", "InternetBanking\InternetBanking.csproj", "{736DB7C9-5F55-493A-AB28-EBDDF9A65209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternetBanking.BDD.Tests", "InternetBanking.BDD.Tests\InternetBanking.BDD.Tests.csproj", "{F292DFC9-20BC-46CF-BD48-F2C5B08A18A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{736DB7C9-5F55-493A-AB28-EBDDF9A65209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{736DB7C9-5F55-493A-AB28-EBDDF9A65209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{736DB7C9-5F55-493A-AB28-EBDDF9A65209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{736DB7C9-5F55-493A-AB28-EBDDF9A65209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F292DFC9-20BC-46CF-BD48-F2C5B08A18A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F292DFC9-20BC-46CF-BD48-F2C5B08A18A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F292DFC9-20BC-46CF-BD48-F2C5B08A18A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F292DFC9-20BC-46CF-BD48-F2C5B08A18A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CA07FE1-A58E-45BE-82FF-19CC1165BFE3}
+	EndGlobalSection
+EndGlobal
